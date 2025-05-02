@@ -1,0 +1,18 @@
+[
+    "srcport",
+    "packet.length",
+    "header_payload_ratio",
+    "byte.count",
+    "packet.rate",
+    "ip.proto",
+    "flags",
+    "src_port_entropy",
+    "port_scan_density",
+    "src_dst_port_diversity",
+    "ports_per_packet_ratio",
+    "connection_count",
+    "syn_ratio",
+    "dst_port_entropy",
+    "window.unique.dst.ports",
+    "memcached.packet.rate"
+]
