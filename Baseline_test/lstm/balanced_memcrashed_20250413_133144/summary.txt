@@ -1,0 +1,46 @@
+Test performed: 2025-07-29 16:30:16
+Dataset: balanced_memcrashed_20250413_133144.csv
+Number of samples: 3,986,184
+
+Prediction distribution:
+- Normal: 2,300,668 samples (57.72%)
+- DDoS: 195 samples (0.00%)
+- Memcrashed: 1,684,551 samples (42.26%)
+- PortScan: 770 samples (0.02%)
+
+Classification summary:
+- Normal:
+  Actual: 2,000,000, Predicted: 2,300,668
+  Precision: 0.8667, Recall: 0.9970
+- DDoS:
+  Actual: 0, Predicted: 195
+  Precision: 0.0000, Recall: 0.0000
+- Memcrashed:
+  Actual: 1,986,184, Predicted: 1,684,551
+  Precision: 0.9969, Recall: 0.8455
+- PortScan:
+  Actual: 0, Predicted: 770
+  Precision: 0.0000, Recall: 0.0000
+
+ROC AUC Scores:
+Micro-average: 0.9891
+Macro-average: nan
+
+Precision-Recall AUC Scores:
+Micro-average: 0.9704
+Normal: 0.9709
+DDoS: 1.0000
+Memcrashed: 0.9887
+PortScan: 1.0000
+
+
+
+PREDICTION SUMMARY
+==================================================
+Attack Type     |    Count | Percentage |     Accuracy
+------------------------------------------------------
+Normal          | 2,300,668 |     57.72% |       99.70%
+DDoS            |      195 |      0.00% |        0.00%
+Memcrashed      | 1,684,551 |     42.26% |       84.55%
+PortScan        |      770 |      0.02% |        0.00%
+------------------------------------------------------

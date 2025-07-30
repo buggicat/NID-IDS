@@ -1,0 +1,46 @@
+Test performed: 2025-07-29 15:34:06
+Dataset: attack_focused_portscan_20250412_225940.csv
+Number of samples: 3,500,000
+
+Prediction distribution:
+- Normal: 1,054,387 samples (30.13%)
+- DDoS: 1,070 samples (0.03%)
+- Memcrashed: 4,201 samples (0.12%)
+- PortScan: 2,440,342 samples (69.72%)
+
+Classification summary:
+- Normal:
+  Actual: 999,992, Predicted: 1,054,387
+  Precision: 0.9304, Recall: 0.9810
+- DDoS:
+  Actual: 0, Predicted: 1,070
+  Precision: 0.0000, Recall: 0.0000
+- Memcrashed:
+  Actual: 0, Predicted: 4,201
+  Precision: 0.0000, Recall: 0.0000
+- PortScan:
+  Actual: 2,500,008, Predicted: 2,440,342
+  Precision: 0.9923, Recall: 0.9686
+
+ROC AUC Scores:
+Micro-average: 0.9970
+Macro-average: nan
+
+Precision-Recall AUC Scores:
+Micro-average: 0.9922
+Normal: 0.9935
+DDoS: 1.0000
+Memcrashed: 1.0000
+PortScan: 0.9981
+
+
+
+PREDICTION SUMMARY
+==================================================
+Attack Type     |    Count | Percentage |     Accuracy
+------------------------------------------------------
+Normal          | 1,054,387 |     30.13% |       98.10%
+DDoS            |    1,070 |      0.03% |        0.00%
+Memcrashed      |    4,201 |      0.12% |        0.00%
+PortScan        | 2,440,342 |     69.72% |       96.86%
+------------------------------------------------------

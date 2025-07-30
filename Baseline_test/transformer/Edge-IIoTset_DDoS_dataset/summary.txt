@@ -1,0 +1,46 @@
+Test performed: 2025-07-29 17:57:42
+Dataset: Edge-IIoTset_DDoS_dataset.csv
+Number of samples: 2,020,152
+
+Prediction distribution:
+- Normal: 331,838 samples (16.43%)
+- DDoS: 1,688,295 samples (83.57%)
+- Memcrashed: 11 samples (0.00%)
+- PortScan: 8 samples (0.00%)
+
+Classification summary:
+- Normal:
+  Actual: 0, Predicted: 331,838
+  Precision: 0.0000, Recall: 0.0000
+- DDoS:
+  Actual: 2,020,152, Predicted: 1,688,295
+  Precision: 1.0000, Recall: 0.8357
+- Memcrashed:
+  Actual: 0, Predicted: 11
+  Precision: 0.0000, Recall: 0.0000
+- PortScan:
+  Actual: 0, Predicted: 8
+  Precision: 0.0000, Recall: 0.0000
+
+ROC AUC Scores:
+Micro-average: 0.9530
+Macro-average: nan
+
+Precision-Recall AUC Scores:
+Micro-average: 0.8085
+Normal: 1.0000
+DDoS: 1.0000
+Memcrashed: 1.0000
+PortScan: 1.0000
+
+
+
+PREDICTION SUMMARY
+==================================================
+Attack Type     |    Count | Percentage |     Accuracy
+------------------------------------------------------
+Normal          |  331,838 |     16.43% |        0.00%
+DDoS            | 1,688,295 |     83.57% |       83.57%
+Memcrashed      |       11 |      0.00% |        0.00%
+PortScan        |        8 |      0.00% |        0.00%
+------------------------------------------------------
